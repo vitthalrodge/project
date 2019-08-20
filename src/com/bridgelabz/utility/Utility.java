@@ -22,7 +22,8 @@ private static final int F = 0;
 private static final float Number = 0;
 
 /**
- * @param year
+ * purpose : this program find the leap year or not;
+ * @param year : Enter the year;
  * @return
  */
 
@@ -254,6 +255,10 @@ public static void FlipCoin(int times) {
 	
 }
 
+/*********************************************************************************
+ * purose : 
+ * @param power
+ *********************************************************************************/
 public static void PoewrOf2(int power) {
 	// TODO Auto-generated method stub
 	
@@ -262,6 +267,28 @@ public static void PoewrOf2(int power) {
 		val = val * 2;
 		System.out.println(val);
 	}
+	
+}
+
+/*********************************************************************************
+ * Purpose : Write a program Binary.java prints the binary (base 2) representation of the decimal
+number typed as the command­line argument. It is based on decomposing the
+number into a sum of powers of 2.
+ * 
+ * @param number : enter the number;
+ ********************************************************************************/
+public void Bnary(int number) {
+	// TODO Auto-generated method stub
+	
+	String binary="";;
+	while(number>0)
+	{
+		
+		binary=number%2+binary;
+		number=number/2;
+
+	}
+	System.out.println( "DECIMAL TO BINARY IS"+binary);
 	
 }
 

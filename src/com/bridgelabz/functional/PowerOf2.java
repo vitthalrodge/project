@@ -16,6 +16,7 @@ public static void main (String args[]) {
 		System.out.println("invalid input ");
 		System.out.println("enter value less than 32");
 		pow = scanner.nextInt();
+		scanner.close();
 	}
 	}	
 }
